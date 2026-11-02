@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eclipse</title>
+<style>
+  :root { color-scheme: dark; }
+  html, body { margin: 0; height: 100%; background: #111; color: #c8c8c0;
+    font: 14px/1.4 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  body { display: flex; flex-direction: column; align-items: center; justify-content: center;
+    gap: 10px; overflow: hidden; }
+  #herald { display: block; background: #000; image-rendering: pixelated; }
+  #herald-status { margin: 0; max-width: 40em; text-align: center; }
+  #herald-status.error { color: #e8a090; }
+  footer { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px 18px;
+    padding: 0 16px; font-size: 13px; color: #8a8a84; }
+  footer a { color: #b8b8b0; cursor: pointer; text-decoration: underline; }
+</style>
+</head>
+<body>
+<canvas id="herald" width="640" height="360"></canvas>
+<p id="herald-status">Loading…</p>
+<footer>
+  <span>Arrows move · E act · Q heavy · F fire · Shift block · Space dodge · Esc menu</span>
+  <a id="download-save" role="button" tabindex="0">Download save</a>
+  <a id="load-save" role="button" tabindex="0">Load save</a>
+  <input id="load-save-file" type="file" hidden>
+</footer>
+<noscript><p>Eclipse needs JavaScript.</p></noscript>
+<script nomodule>document.getElementById("herald-status").textContent = "This browser is too old to run Eclipse.";</script>
+<script type="module">
+  import { downloadSave, importSaveFile } from "./herald_browser.mjs";
+  const file = document.getElementById("load-save-file");
+  const status = (msg) => { const s = document.getElementById("herald-status"); s.textContent = msg; s.hidden = false; };
+  document.getElementById("download-save").addEventListener("click", () => {
+    if (!downloadSave("eclipse/save1", "eclipse-save.dat")) status("There's no save yet: play a little first.");
+  });
+  document.getElementById("load-save").addEventListener("click", () => file.click());
+  file.addEventListener("change", () => {
+    if (file.files && file.files[0]) importSaveFile("eclipse/save1", file.files[0]);
+  });
+  import("./eclipse.mjs").catch((e) => status("Eclipse couldn't start: " + e.message));
+</script>
+</body>
+</html>
