@@ -84051,82 +84051,127 @@ function keys() {
                                                                 {
                                                                   const $t70591 = { _0: "Enter", _1: $t70590 };
                                                                   {
-                                                                    const $t70592 = { $: "Right" };
+                                                                    const $t70592 = { $: "Start" };
                                                                     {
                                                                       const $t70593 = { $: "Nil" };
                                                                       {
                                                                         const $t70594 = { $: "Cons", _0: $t70592, _1: $t70593 };
                                                                         {
-                                                                          const $t70595 = { _0: "ArrowRight", _1: $t70594 };
+                                                                          const $t70595 = { _0: "KeyA", _1: $t70594 };
                                                                           {
-                                                                            const $t70596 = { $: "Left" };
+                                                                            const $t70596 = { $: "X" };
                                                                             {
                                                                               const $t70597 = { $: "Nil" };
                                                                               {
                                                                                 const $t70598 = { $: "Cons", _0: $t70596, _1: $t70597 };
                                                                                 {
-                                                                                  const $t70599 = { _0: "ArrowLeft", _1: $t70598 };
+                                                                                  const $t70599 = { _0: "Tab", _1: $t70598 };
                                                                                   {
-                                                                                    const $t70600 = { $: "Up" };
+                                                                                    const $t70600 = { $: "Y" };
                                                                                     {
                                                                                       const $t70601 = { $: "Nil" };
                                                                                       {
                                                                                         const $t70602 = { $: "Cons", _0: $t70600, _1: $t70601 };
                                                                                         {
-                                                                                          const $t70603 = { _0: "ArrowUp", _1: $t70602 };
+                                                                                          const $t70603 = { _0: "KeyR", _1: $t70602 };
                                                                                           {
-                                                                                            const $t70604 = { $: "Down" };
+                                                                                            const $t70604 = { $: "Right" };
                                                                                             {
                                                                                               const $t70605 = { $: "Nil" };
                                                                                               {
                                                                                                 const $t70606 = { $: "Cons", _0: $t70604, _1: $t70605 };
                                                                                                 {
-                                                                                                  const $t70607 = { _0: "ArrowDown", _1: $t70606 };
+                                                                                                  const $t70607 = { _0: "ArrowRight", _1: $t70606 };
                                                                                                   {
-                                                                                                    const $t70608 = { $: "X" };
+                                                                                                    const $t70608 = { $: "Left" };
                                                                                                     {
                                                                                                       const $t70609 = { $: "Nil" };
                                                                                                       {
                                                                                                         const $t70610 = { $: "Cons", _0: $t70608, _1: $t70609 };
                                                                                                         {
-                                                                                                          const $t70611 = { _0: "KeyC", _1: $t70610 };
+                                                                                                          const $t70611 = { _0: "ArrowLeft", _1: $t70610 };
                                                                                                           {
-                                                                                                            const $t70612 = { $: "Y" };
+                                                                                                            const $t70612 = { $: "Up" };
                                                                                                             {
                                                                                                               const $t70613 = { $: "Nil" };
                                                                                                               {
                                                                                                                 const $t70614 = { $: "Cons", _0: $t70612, _1: $t70613 };
                                                                                                                 {
-                                                                                                                  const $t70615 = { _0: "KeyV", _1: $t70614 };
+                                                                                                                  const $t70615 = { _0: "ArrowUp", _1: $t70614 };
                                                                                                                   {
-                                                                                                                    const $t70616 = { $: "Nil" };
+                                                                                                                    const $t70616 = { $: "Down" };
                                                                                                                     {
-                                                                                                                      const $t70617 = { $: "Cons", _0: $t70615, _1: $t70616 };
+                                                                                                                      const $t70617 = { $: "Nil" };
                                                                                                                       {
-                                                                                                                        const $t70618 = { $: "Cons", _0: $t70611, _1: $t70617 };
+                                                                                                                        const $t70618 = { $: "Cons", _0: $t70616, _1: $t70617 };
                                                                                                                         {
-                                                                                                                          const $t70619 = { $: "Cons", _0: $t70607, _1: $t70618 };
+                                                                                                                          const $t70619 = { _0: "ArrowDown", _1: $t70618 };
                                                                                                                           {
-                                                                                                                            const $t70620 = { $: "Cons", _0: $t70603, _1: $t70619 };
+                                                                                                                            const $t70620 = { $: "X" };
                                                                                                                             {
-                                                                                                                              const $t70621 = { $: "Cons", _0: $t70599, _1: $t70620 };
+                                                                                                                              const $t70621 = { $: "Nil" };
                                                                                                                               {
-                                                                                                                                const $t70622 = { $: "Cons", _0: $t70595, _1: $t70621 };
+                                                                                                                                const $t70622 = { $: "Cons", _0: $t70620, _1: $t70621 };
                                                                                                                                 {
-                                                                                                                                  const $t70623 = { $: "Cons", _0: $t70591, _1: $t70622 };
+                                                                                                                                  const $t70623 = { _0: "KeyC", _1: $t70622 };
                                                                                                                                   {
-                                                                                                                                    const $t70624 = { $: "Cons", _0: $t70587, _1: $t70623 };
+                                                                                                                                    const $t70624 = { $: "Y" };
                                                                                                                                     {
-                                                                                                                                      const $t70625 = { $: "Cons", _0: $t70583, _1: $t70624 };
+                                                                                                                                      const $t70625 = { $: "Nil" };
                                                                                                                                       {
-                                                                                                                                        const $t70626 = { $: "Cons", _0: $t70579, _1: $t70625 };
+                                                                                                                                        const $t70626 = { $: "Cons", _0: $t70624, _1: $t70625 };
                                                                                                                                         {
-                                                                                                                                          const $t70627 = { $: "Cons", _0: $t70575, _1: $t70626 };
+                                                                                                                                          const $t70627 = { _0: "KeyV", _1: $t70626 };
                                                                                                                                           {
-                                                                                                                                            const $t70628 = { $: "Cons", _0: $t70571, _1: $t70627 };
+                                                                                                                                            const $t70628 = { $: "Nil" };
                                                                                                                                             {
-                                                                                                                                              const $t70629 = { $: "Cons", _0: $t70567, _1: $t70628 };
-                                                                                                                                              return { $: "Cons", _0: $t70563, _1: $t70629 };
+                                                                                                                                              const $t70629 = { $: "Cons", _0: $t70627, _1: $t70628 };
+                                                                                                                                              {
+                                                                                                                                                const $t70630 = { $: "Cons", _0: $t70623, _1: $t70629 };
+                                                                                                                                                {
+                                                                                                                                                  const $t70631 = { $: "Cons", _0: $t70619, _1: $t70630 };
+                                                                                                                                                  {
+                                                                                                                                                    const $t70632 = { $: "Cons", _0: $t70615, _1: $t70631 };
+                                                                                                                                                    {
+                                                                                                                                                      const $t70633 = { $: "Cons", _0: $t70611, _1: $t70632 };
+                                                                                                                                                      {
+                                                                                                                                                        const $t70634 = { $: "Cons", _0: $t70607, _1: $t70633 };
+                                                                                                                                                        {
+                                                                                                                                                          const $t70635 = { $: "Cons", _0: $t70603, _1: $t70634 };
+                                                                                                                                                          {
+                                                                                                                                                            const $t70636 = { $: "Cons", _0: $t70599, _1: $t70635 };
+                                                                                                                                                            {
+                                                                                                                                                              const $t70637 = { $: "Cons", _0: $t70595, _1: $t70636 };
+                                                                                                                                                              {
+                                                                                                                                                                const $t70638 = { $: "Cons", _0: $t70591, _1: $t70637 };
+                                                                                                                                                                {
+                                                                                                                                                                  const $t70639 = { $: "Cons", _0: $t70587, _1: $t70638 };
+                                                                                                                                                                  {
+                                                                                                                                                                    const $t70640 = { $: "Cons", _0: $t70583, _1: $t70639 };
+                                                                                                                                                                    {
+                                                                                                                                                                      const $t70641 = { $: "Cons", _0: $t70579, _1: $t70640 };
+                                                                                                                                                                      {
+                                                                                                                                                                        const $t70642 = { $: "Cons", _0: $t70575, _1: $t70641 };
+                                                                                                                                                                        {
+                                                                                                                                                                          const $t70643 = { $: "Cons", _0: $t70571, _1: $t70642 };
+                                                                                                                                                                          {
+                                                                                                                                                                            const $t70644 = { $: "Cons", _0: $t70567, _1: $t70643 };
+                                                                                                                                                                            return { $: "Cons", _0: $t70563, _1: $t70644 };
+                                                                                                                                                                          }
+                                                                                                                                                                        }
+                                                                                                                                                                      }
+                                                                                                                                                                    }
+                                                                                                                                                                  }
+                                                                                                                                                                }
+                                                                                                                                                              }
+                                                                                                                                                            }
+                                                                                                                                                          }
+                                                                                                                                                        }
+                                                                                                                                                      }
+                                                                                                                                                    }
+                                                                                                                                                  }
+                                                                                                                                                }
+                                                                                                                                              }
                                                                                                                                             }
                                                                                                                                           }
                                                                                                                                         }
@@ -84203,43 +84248,43 @@ const keys$clo = { _0: ($_) => keys() };
 async function main(_c, ffi, _p) {
   Herald$Platform$Browser$show_status("Loading…");
   {
-    let $t70631;
+    let $t70646;
     {
-      const $t70630 = (await Herald$Platform$Browser$fetch_asset("assets/eclipse.hpk"));
-      $t70631 = Result$flat_map$Result_String_String$Fn_String_Result_World_String($t70630, Herald$Map$decode$clo);
+      const $t70645 = (await Herald$Platform$Browser$fetch_asset("assets/eclipse.hpk"));
+      $t70646 = Result$flat_map$Result_String_String$Fn_String_Result_World_String($t70645, Herald$Map$decode$clo);
     }
-    switch ($t70631.$) {
+    switch ($t70646.$) {
       case "Err": {
-        const $f70645 = $t70631._0;
+        const $f70660 = $t70646._0;
         {
-          const e = $f70645;
+          const e = $f70660;
           {
-            let $t70632;
+            let $t70647;
             {
               const $rc_3634 = march_string_concat3("Eclipse couldn't load its world: ", e, ". Reload to try again.");
-              $t70632 = $rc_3634;
+              $t70647 = $rc_3634;
             }
-            return Herald$Platform$Browser$show_error($t70632);
+            return Herald$Platform$Browser$show_error($t70647);
           }
         }
         break;
       }
       case "Ok": {
-        const $f70646 = $t70631._0;
+        const $f70661 = $t70646._0;
         {
-          const w = $f70646;
+          const w = $f70661;
           {
             const args = march_process_argv();
             {
               let script;
               {
-                let $t70633;
-                $t70633 = Eclipse$Replay$arg_after(args, "--replay");
-                switch ($t70633.$) {
+                let $t70648;
+                $t70648 = Eclipse$Replay$arg_after(args, "--replay");
+                switch ($t70648.$) {
                   case "Some": {
-                    const $f70634 = $t70633._0;
+                    const $f70649 = $t70648._0;
                     {
-                      const file = $f70634;
+                      const file = $f70649;
                       script = (await Herald$Platform$Browser$fetch_asset(file));
                     }
                     break;
@@ -84255,9 +84300,9 @@ async function main(_c, ffi, _p) {
                 }
               }
               {
-                let $t70640;
+                let $t70655;
                 {
-                  let $t70635;
+                  let $t70650;
                   {
                     const $t70513_i10922 = { $: "$Clo_$lam0_Eclipse_hooks$0_Eclipse_hooks", _0: $lam0_Eclipse_hooks$apply$0_Eclipse_hooks };
                     {
@@ -84266,28 +84311,28 @@ async function main(_c, ffi, _p) {
                         const $t70517_i10924 = { $: "$Clo_$lam2_Eclipse_hooks$2_Eclipse_hooks", _0: $lam2_Eclipse_hooks$apply$2_Eclipse_hooks };
                         {
                           const $t70519_i10925 = { $: "$Clo_$lam3_Eclipse_hooks$3_Eclipse_hooks", _0: $lam3_Eclipse_hooks$apply$3_Eclipse_hooks };
-                          $t70635 = ({ still: $t70513_i10922, start: $t70515_i10923, render: $t70517_i10924, game_at: $t70519_i10925 });
+                          $t70650 = ({ still: $t70513_i10922, start: $t70515_i10923, render: $t70517_i10924, game_at: $t70519_i10925 });
                         }
                       }
                     }
                   }
                   {
-                    const $t70637 = { $: "$Clo_$lam0_main$0_main", _0: $lam0_main$apply$0_main, _1: script };
+                    const $t70652 = { $: "$Clo_$lam0_main$0_main", _0: $lam0_main$apply$0_main, _1: script };
                     {
-                      const $t70639 = { $: "$Clo_$lam1_main$1_main", _0: $lam1_main$apply$1_main };
-                      $t70640 = Eclipse$Replay$tool($t70635, w, args, $t70637, $t70639);
+                      const $t70654 = { $: "$Clo_$lam1_main$1_main", _0: $lam1_main$apply$1_main };
+                      $t70655 = Eclipse$Replay$tool($t70650, w, args, $t70652, $t70654);
                     }
                   }
                 }
-                switch ($t70640.$) {
+                switch ($t70655.$) {
                   case "Some": {
-                    const $f70644 = $t70640._0;
+                    const $f70659 = $t70655._0;
                     {
-                      const lines = $f70644;
+                      const lines = $f70659;
                       {
-                        const $t70642 = { $: "$Clo_$lam2_main$2_main", _0: $lam2_main$apply$2_main };
+                        const $t70657 = { $: "$Clo_$lam2_main$2_main", _0: $lam2_main$apply$2_main };
                         {
-                          const f_i10920 = $t70642;
+                          const f_i10920 = $t70657;
                           {
                             const go_i10921 = { $: "$Clo_go$0_List_each_List_String_Fn_String_T_", _0: go$apply$0_List_each_List_String_Fn_String_T_, _1: f_i10920 };
                             return go$apply$0_List_each_List_String_Fn_String_T_(go_i10921, lines);
@@ -84299,38 +84344,38 @@ async function main(_c, ffi, _p) {
                   }
                   case "None": {
                     {
-                      let $t70643;
+                      let $t70658;
                       {
                         const w_i19920 = w;
                         {
-                          let $t70648_i19922;
+                          let $t70663_i19922;
                           {
                             const key_i22718 = "eclipse/save1";
                             {
                               const $rc_2407_i22719 = hb_take_import$clo._0(hb_take_import$clo, "eclipse/save1");
-                              $t70648_i19922 = $rc_2407_i22719;
+                              $t70663_i19922 = $rc_2407_i22719;
                             }
                           }
-                          switch ($t70648_i19922.$) {
+                          switch ($t70663_i19922.$) {
                             case "None": {
-                              $t70643 = true;
+                              $t70658 = true;
                               break;
                             }
                             case "Some": {
-                              const $f70652_i19923 = $t70648_i19922._0;
+                              const $f70667_i19923 = $t70663_i19922._0;
                               {
-                                const d_i19924 = $f70652_i19923;
+                                const d_i19924 = $f70667_i19923;
                                 {
-                                  const $t70649_i19925 = Eclipse$Save$restore(w, d_i19924);
-                                  switch ($t70649_i19925.$) {
+                                  const $t70664_i19925 = Eclipse$Save$restore(w, d_i19924);
+                                  switch ($t70664_i19925.$) {
                                     case "Some": {
-                                      const $f70651_i19926 = $t70649_i19925._0;
-                                      $t70643 = Herald$Platform$Browser$write_save("eclipse/save1", d_i19924);
+                                      const $f70666_i19926 = $t70664_i19925._0;
+                                      $t70658 = Herald$Platform$Browser$write_save("eclipse/save1", d_i19924);
                                       break;
                                     }
                                     case "None": {
                                       Herald$Platform$Browser$show_error("That file isn't an Eclipse save. Your current save is unchanged.");
-                                      $t70643 = false;
+                                      $t70658 = false;
                                       break;
                                     }
                                     default: {
@@ -84349,7 +84394,7 @@ async function main(_c, ffi, _p) {
                           }
                         }
                       }
-                      return play(ffi, w, $t70643);
+                      return play(ffi, w, $t70658);
                     }
                     break;
                   }
@@ -84375,9 +84420,9 @@ function play(ffi, w, clear_status) {
   {
     let s;
     {
-      let $t70655;
+      let $t70670;
       {
-        let $t70654;
+        let $t70669;
         {
           const key_i19950 = "eclipse/save1";
           {
@@ -84387,7 +84432,7 @@ function play(ffi, w, clear_status) {
                 const $f44818_i19952 = $t44816_i19951._0;
                 {
                   const d_i19953 = $f44818_i19952;
-                  $t70654 = { $: "Ok", _0: d_i19953 };
+                  $t70669 = { $: "Ok", _0: d_i19953 };
                 }
                 break;
               }
@@ -84395,7 +84440,7 @@ function play(ffi, w, clear_status) {
                 {
                   let $t44817_i19955;
                   $t44817_i19955 = "no save under eclipse/save1";
-                  $t70654 = { $: "Err", _0: $t44817_i19955 };
+                  $t70669 = { $: "Err", _0: $t44817_i19955 };
                 }
                 break;
               }
@@ -84406,19 +84451,19 @@ function play(ffi, w, clear_status) {
             }
           }
         }
-        $t70655 = Eclipse$load_or_start(w, $t70654);
+        $t70670 = Eclipse$load_or_start(w, $t70669);
       }
       {
-        const $t70656 = hb_now_ns();
-        s = Eclipse$seeded($t70655, $t70656);
+        const $t70671 = hb_now_ns();
+        s = Eclipse$seeded($t70670, $t70671);
       }
     }
     {
-      let $t70658;
+      let $t70673;
       {
-        const $t70657 = ({ name: "hd", width: 640, height: 360, period_num: 1000000000, period_den: 60, bg_layers: 4, min_layer_width: 128, oam_size: 128, bg_tiles: 8192, obj_tiles: 16384, line_cycles: 3227, line_sprites: 128, colors_per_bank: 16, text_cols: 78 });
+        const $t70672 = ({ name: "hd", width: 640, height: 360, period_num: 1000000000, period_den: 60, bg_layers: 4, min_layer_width: 128, oam_size: 128, bg_tiles: 8192, obj_tiles: 16384, line_cycles: 3227, line_sprites: 128, colors_per_bank: 16, text_cols: 78 });
         {
-          const p_i19944 = $t70657;
+          const p_i19944 = $t70672;
           {
             const e_i19947 = hb_open$clo._0(hb_open$clo, 640, 360);
             {
@@ -84426,39 +84471,39 @@ function play(ffi, w, clear_status) {
               if ($t44804_i19948 === true) {
                 {
                   const $t44805_i19949 = { $: "Window", _0: 0 };
-                  $t70658 = { $: "Ok", _0: $t44805_i19949 };
+                  $t70673 = { $: "Ok", _0: $t44805_i19949 };
                 }
               } else {
-                $t70658 = { $: "Err", _0: e_i19947 };
+                $t70673 = { $: "Err", _0: e_i19947 };
               }
             }
           }
         }
       }
-      switch ($t70658.$) {
+      switch ($t70673.$) {
         case "Err": {
-          const $f70667 = $t70658._0;
+          const $f70682 = $t70673._0;
           {
-            const e = $f70667;
+            const e = $f70682;
             {
-              let $t70659;
+              let $t70674;
               {
                 const $rc_3635 = ("Eclipse can't run in this browser: " + e);
-                $t70659 = $rc_3635;
+                $t70674 = $rc_3635;
               }
-              return Herald$Platform$Browser$show_error($t70659);
+              return Herald$Platform$Browser$show_error($t70674);
             }
           }
           break;
         }
         case "Ok": {
-          const $f70668 = $t70658._0;
+          const $f70683 = $t70673._0;
           {
-            const win = $f70668;
+            const win = $f70683;
             {
               let $eff;
               {
-                const $t70660 = keys();
+                const $t70675 = keys();
                 {
                   let spec_i19940;
                   {
@@ -84466,7 +84511,7 @@ function play(ffi, w, clear_status) {
                     {
                       let $t44829_i19936;
                       {
-                        const xs_i22738 = $t70660;
+                        const xs_i22738 = $t70675;
                         {
                           const f_i22739 = $t44828_i19935;
                           switch (xs_i22738.$) {
@@ -84527,9 +84572,9 @@ function play(ffi, w, clear_status) {
               }
             }
             {
-              const $t70661 = ({ poll: Herald$Platform$Browser$poll$clo, present: Herald$Platform$Browser$present$clo, now_ns: Herald$Platform$Browser$now_ns$clo, close: Herald$Platform$Browser$close$clo, changed: Herald$Platform$Browser$changed$clo, save: Herald$Platform$Browser$save$clo });
+              const $t70676 = ({ poll: Herald$Platform$Browser$poll$clo, present: Herald$Platform$Browser$present$clo, now_ns: Herald$Platform$Browser$now_ns$clo, close: Herald$Platform$Browser$close$clo, changed: Herald$Platform$Browser$changed$clo, save: Herald$Platform$Browser$save$clo });
               {
-                let $t70663;
+                let $t70678;
                 {
                   const key_i19931 = "eclipse/save1";
                   {
@@ -84539,10 +84584,10 @@ function play(ffi, w, clear_status) {
                       $eff = $rc_2403_i19932;
                     }
                   }
-                  $t70663 = win;
+                  $t70678 = win;
                 }
                 {
-                  let $t70664;
+                  let $t70679;
                   {
                     let $t68894_i22727;
                     {
@@ -84592,7 +84637,7 @@ function play(ffi, w, clear_status) {
                                 }
                               }
                             }
-                            $t70664 = { $: "Game", _0: $t68907_i22737 };
+                            $t70679 = { $: "Game", _0: $t68907_i22737 };
                           }
                         }
                         break;
@@ -84604,8 +84649,8 @@ function play(ffi, w, clear_status) {
                     }
                   }
                   {
-                    const $t70666 = { $: "$Clo_$lam0_play$0_play", _0: $lam0_play$apply$0_play };
-                    return Herald$run_frames$R_changed_Fn_Window_T_Window_Option_String_close_Fn_Window_Int_now_ns_Fn_Window_T_Window_Int_poll_Fn_Window_T_Window_R_buttons_Int_focused_Bool_quit_Bool_present_Fn_Window_NativeI32Arr_Window_save_Fn_Window_String_T_Window_Bool$Window$Game_R_focused_Bool_s_R_bag_R_credits_Int_equipped_List_T_Slot_String_items_List_T_String_Int_battle_ids_List_String_body_R_h_Int_w_Int_x_Int_y_Int_bot_hp_List_Int_cam_R_bound_h_Int_bound_w_Int_bound_x_Int_bound_y_Int_dead_h_Int_dead_w_Int_shake_Int_t_Int_view_h_Int_view_w_Int_x_Int_y_Int_cleared_List_Int_cores_List_String_dir_Option_Dir_facing_Dir_fight_Option_R_actors_List_R_act_String_aim_x_Int_aim_y_Int_atb_Int_block_reduction_Int_block_tap_Int_blocking_Bool_body_R_h_Int_w_Int_x_Int_y_Int_buffer_ticks_Int_buffered_String_combo_Int_combo_window_Int_cooldown_Int_counter_Int_def_buff_Int_dodge_x_Int_dodge_y_Int_facing_Dir_flash_Int_hit_done_Bool_hp_Int_id_Int_invuln_Int_kb_t_Int_kb_x_Int_kb_y_Int_look_Option_R_accessory_String_arms_String_lower_String_model_String_secondary_String_max_hp_Int_mind_R_action_String_guard_Int_hunter_Int_next_Int_rest_Int_rest_next_Int_saw_attack_Bool_spot_Int_target_Int_turn_Bool_windup_len_Int_parry_lock_Int_patk_Int_pdef_Int_ranged_power_Int_recovery_open_Int_scan_ticks_Int_scan_used_Bool_shot_cooldown_Int_side_String_spd_Int_stagger_delay_Int_stagger_meter_Int_timer_Int_unblockable_Int_weight_Int_arena_R_h_Int_w_Int_x_Int_y_Int_drops_List_T_Int_Int_freeze_Int_fx_List_R_age_Int_amount_Int_facing_Dir_kind_String_life_Int_x_Int_y_Int_lock_target_Int_log_List_String_note_at_Int_resolutions_List_T_Int_String_rng_Int_shake_Int_shots_List_R_body_R_h_Int_w_Int_x_Int_y_Int_facing_Dir_kind_String_life_Int_power_Int_side_String_source_Int_vx_Int_vy_Int_speed_buff_Int_support_at_T_Int_Int_ticks_Int_fight_credit_Option_R_actor_spawns_List_T_Int_String_captured_List_String_destroyed_List_String_encounter_id_String_original_xp_Int_fight_idx_Int_font_R_bank_Int_first_Int_frame_R_bank_Int_first_Int_frames_Int_free_arm_used_Bool_hp_Int_intent_R_block_Bool_block_pressed_Bool_dir_Option_Dir_dodge_Bool_heavy_Bool_light_Bool_ranged_Bool_last_left_Bool_level_String_loot_List_T_Int_Int_max_hp_Int_mayor_x_Int_mayor_y_Int_moving_Bool_opening_phase_String_opening_ticks_Int_party_List_R_accessory_String_arms_String_lower_String_model_String_secondary_String_picked_List_Int_progress_notice_String_progress_notice_ticks_Int_quests_R_accepted_List_String_completed_List_String_destroyed_targets_List_String_intro_done_Bool_rewarded_encounters_List_String_tracked_String_tracking_explicit_Bool_visited_List_String_quit_after_Int_rng_Int_save_feedback_Bool_stack_Stack_Scene_story_pending_String_suit_R_sockets_List_String_unlocked_Bool_ticks_Int_trail_R_facing_Dir_moving_Bool_points_List_T_Int_Int_tutorial_seen_Bool_want_quit_Bool_want_save_Bool_world_World_xp_Int$Fn_Fn_Pending_Window_T__Pending_Window_T_$Fn_Window_R_focused_Bool_s_R_bag_R_credits_Int_equipped_List_T_Slot_String_items_List_T_String_Int_battle_ids_List_String_body_R_h_Int_w_Int_x_Int_y_Int_bot_hp_List_Int_cam_R_bound_h_Int_bound_w_Int_bound_x_Int_bound_y_Int_dead_h_Int_dead_w_Int_shake_Int_t_Int_view_h_Int_view_w_Int_x_Int_y_Int_cleared_List_Int_cores_List_String_dir_Option_Dir_facing_Dir_fight_Option_R_actors_List_R_act_String_aim_x_Int_aim_y_Int_atb_Int_block_reduction_Int_block_tap_Int_blocking_Bool_body_R_h_Int_w_Int_x_Int_y_Int_buffer_ticks_Int_buffered_String_combo_Int_combo_window_Int_cooldown_Int_counter_Int_def_buff_Int_dodge_x_Int_dodge_y_Int_facing_Dir_flash_Int_hit_done_Bool_hp_Int_id_Int_invuln_Int_kb_t_Int_kb_x_Int_kb_y_Int_look_Option_R_accessory_String_arms_String_lower_String_model_String_secondary_String_max_hp_Int_mind_R_action_String_guard_Int_hunter_Int_next_Int_rest_Int_rest_next_Int_saw_attack_Bool_spot_Int_target_Int_turn_Bool_windup_len_Int_parry_lock_Int_patk_Int_pdef_Int_ranged_power_Int_recovery_open_Int_scan_ticks_Int_scan_used_Bool_shot_cooldown_Int_side_String_spd_Int_stagger_delay_Int_stagger_meter_Int_timer_Int_unblockable_Int_weight_Int_arena_R_h_Int_w_Int_x_Int_y_Int_drops_List_T_Int_Int_freeze_Int_fx_List_R_age_Int_amount_Int_facing_Dir_kind_String_life_Int_x_Int_y_Int_lock_target_Int_log_List_String_note_at_Int_resolutions_List_T_Int_String_rng_Int_shake_Int_shots_List_R_body_R_h_Int_w_Int_x_Int_y_Int_facing_Dir_kind_String_life_Int_power_Int_side_String_source_Int_vx_Int_vy_Int_speed_buff_Int_support_at_T_Int_Int_ticks_Int_fight_credit_Option_R_actor_spawns_List_T_Int_String_captured_List_String_destroyed_List_String_encounter_id_String_original_xp_Int_fight_idx_Int_font_R_bank_Int_first_Int_frame_R_bank_Int_first_Int_frames_Int_free_arm_used_Bool_hp_Int_intent_R_block_Bool_block_pressed_Bool_dir_Option_Dir_dodge_Bool_heavy_Bool_light_Bool_ranged_Bool_last_left_Bool_level_String_loot_List_T_Int_Int_max_hp_Int_mayor_x_Int_mayor_y_Int_moving_Bool_opening_phase_String_opening_ticks_Int_party_List_R_accessory_String_arms_String_lower_String_model_String_secondary_String_picked_List_Int_progress_notice_String_progress_notice_ticks_Int_quests_R_accepted_List_String_completed_List_String_destroyed_targets_List_String_intro_done_Bool_rewarded_encounters_List_String_tracked_String_tracking_explicit_Bool_visited_List_String_quit_after_Int_rng_Int_save_feedback_Bool_stack_Stack_Scene_story_pending_String_suit_R_sockets_List_String_unlocked_Bool_ticks_Int_trail_R_facing_Dir_moving_Bool_points_List_T_Int_Int_tutorial_seen_Bool_want_quit_Bool_want_save_Bool_world_World_xp_Int_T_($t70661, $t70663, $t70664, Herald$Platform$Browser$schedule$clo, $t70666);
+                    const $t70681 = { $: "$Clo_$lam0_play$0_play", _0: $lam0_play$apply$0_play };
+                    return Herald$run_frames$R_changed_Fn_Window_T_Window_Option_String_close_Fn_Window_Int_now_ns_Fn_Window_T_Window_Int_poll_Fn_Window_T_Window_R_buttons_Int_focused_Bool_quit_Bool_present_Fn_Window_NativeI32Arr_Window_save_Fn_Window_String_T_Window_Bool$Window$Game_R_focused_Bool_s_R_bag_R_credits_Int_equipped_List_T_Slot_String_items_List_T_String_Int_battle_ids_List_String_body_R_h_Int_w_Int_x_Int_y_Int_bot_hp_List_Int_cam_R_bound_h_Int_bound_w_Int_bound_x_Int_bound_y_Int_dead_h_Int_dead_w_Int_shake_Int_t_Int_view_h_Int_view_w_Int_x_Int_y_Int_cleared_List_Int_cores_List_String_dir_Option_Dir_facing_Dir_fight_Option_R_actors_List_R_act_String_aim_x_Int_aim_y_Int_atb_Int_block_reduction_Int_block_tap_Int_blocking_Bool_body_R_h_Int_w_Int_x_Int_y_Int_buffer_ticks_Int_buffered_String_combo_Int_combo_window_Int_cooldown_Int_counter_Int_def_buff_Int_dodge_x_Int_dodge_y_Int_facing_Dir_flash_Int_hit_done_Bool_hp_Int_id_Int_invuln_Int_kb_t_Int_kb_x_Int_kb_y_Int_look_Option_R_accessory_String_arms_String_lower_String_model_String_secondary_String_max_hp_Int_mind_R_action_String_guard_Int_hunter_Int_next_Int_rest_Int_rest_next_Int_saw_attack_Bool_spot_Int_target_Int_turn_Bool_windup_len_Int_parry_lock_Int_patk_Int_pdef_Int_ranged_power_Int_recovery_open_Int_scan_ticks_Int_scan_used_Bool_shot_cooldown_Int_side_String_spd_Int_stagger_delay_Int_stagger_meter_Int_timer_Int_unblockable_Int_weight_Int_arena_R_h_Int_w_Int_x_Int_y_Int_drops_List_T_Int_Int_freeze_Int_fx_List_R_age_Int_amount_Int_facing_Dir_kind_String_life_Int_x_Int_y_Int_lock_target_Int_log_List_String_note_at_Int_resolutions_List_T_Int_String_rng_Int_shake_Int_shots_List_R_body_R_h_Int_w_Int_x_Int_y_Int_facing_Dir_kind_String_life_Int_power_Int_side_String_source_Int_vx_Int_vy_Int_speed_buff_Int_support_at_T_Int_Int_ticks_Int_fight_credit_Option_R_actor_spawns_List_T_Int_String_captured_List_String_destroyed_List_String_encounter_id_String_original_xp_Int_fight_idx_Int_font_R_bank_Int_first_Int_frame_R_bank_Int_first_Int_frames_Int_free_arm_used_Bool_hp_Int_intent_R_block_Bool_block_pressed_Bool_dir_Option_Dir_dodge_Bool_heavy_Bool_light_Bool_ranged_Bool_last_left_Bool_level_String_loot_List_T_Int_Int_max_hp_Int_mayor_x_Int_mayor_y_Int_moving_Bool_opening_phase_String_opening_ticks_Int_party_List_R_accessory_String_arms_String_lower_String_model_String_secondary_String_picked_List_Int_progress_notice_String_progress_notice_ticks_Int_quests_R_accepted_List_String_completed_List_String_destroyed_targets_List_String_intro_done_Bool_rewarded_encounters_List_String_tracked_String_tracking_explicit_Bool_visited_List_String_quit_after_Int_rng_Int_save_feedback_Bool_stack_Stack_Scene_story_pending_String_suit_R_sockets_List_String_unlocked_Bool_ticks_Int_trail_R_facing_Dir_moving_Bool_points_List_T_Int_Int_tutorial_seen_Bool_want_quit_Bool_want_save_Bool_world_World_xp_Int$Fn_Fn_Pending_Window_T__Pending_Window_T_$Fn_Window_R_focused_Bool_s_R_bag_R_credits_Int_equipped_List_T_Slot_String_items_List_T_String_Int_battle_ids_List_String_body_R_h_Int_w_Int_x_Int_y_Int_bot_hp_List_Int_cam_R_bound_h_Int_bound_w_Int_bound_x_Int_bound_y_Int_dead_h_Int_dead_w_Int_shake_Int_t_Int_view_h_Int_view_w_Int_x_Int_y_Int_cleared_List_Int_cores_List_String_dir_Option_Dir_facing_Dir_fight_Option_R_actors_List_R_act_String_aim_x_Int_aim_y_Int_atb_Int_block_reduction_Int_block_tap_Int_blocking_Bool_body_R_h_Int_w_Int_x_Int_y_Int_buffer_ticks_Int_buffered_String_combo_Int_combo_window_Int_cooldown_Int_counter_Int_def_buff_Int_dodge_x_Int_dodge_y_Int_facing_Dir_flash_Int_hit_done_Bool_hp_Int_id_Int_invuln_Int_kb_t_Int_kb_x_Int_kb_y_Int_look_Option_R_accessory_String_arms_String_lower_String_model_String_secondary_String_max_hp_Int_mind_R_action_String_guard_Int_hunter_Int_next_Int_rest_Int_rest_next_Int_saw_attack_Bool_spot_Int_target_Int_turn_Bool_windup_len_Int_parry_lock_Int_patk_Int_pdef_Int_ranged_power_Int_recovery_open_Int_scan_ticks_Int_scan_used_Bool_shot_cooldown_Int_side_String_spd_Int_stagger_delay_Int_stagger_meter_Int_timer_Int_unblockable_Int_weight_Int_arena_R_h_Int_w_Int_x_Int_y_Int_drops_List_T_Int_Int_freeze_Int_fx_List_R_age_Int_amount_Int_facing_Dir_kind_String_life_Int_x_Int_y_Int_lock_target_Int_log_List_String_note_at_Int_resolutions_List_T_Int_String_rng_Int_shake_Int_shots_List_R_body_R_h_Int_w_Int_x_Int_y_Int_facing_Dir_kind_String_life_Int_power_Int_side_String_source_Int_vx_Int_vy_Int_speed_buff_Int_support_at_T_Int_Int_ticks_Int_fight_credit_Option_R_actor_spawns_List_T_Int_String_captured_List_String_destroyed_List_String_encounter_id_String_original_xp_Int_fight_idx_Int_font_R_bank_Int_first_Int_frame_R_bank_Int_first_Int_frames_Int_free_arm_used_Bool_hp_Int_intent_R_block_Bool_block_pressed_Bool_dir_Option_Dir_dodge_Bool_heavy_Bool_light_Bool_ranged_Bool_last_left_Bool_level_String_loot_List_T_Int_Int_max_hp_Int_mayor_x_Int_mayor_y_Int_moving_Bool_opening_phase_String_opening_ticks_Int_party_List_R_accessory_String_arms_String_lower_String_model_String_secondary_String_picked_List_Int_progress_notice_String_progress_notice_ticks_Int_quests_R_accepted_List_String_completed_List_String_destroyed_targets_List_String_intro_done_Bool_rewarded_encounters_List_String_tracked_String_tracking_explicit_Bool_visited_List_String_quit_after_Int_rng_Int_save_feedback_Bool_stack_Stack_Scene_story_pending_String_suit_R_sockets_List_String_unlocked_Bool_ticks_Int_trail_R_facing_Dir_moving_Bool_points_List_T_Int_Int_tutorial_seen_Bool_want_quit_Bool_want_save_Bool_world_World_xp_Int_T_($t70676, $t70678, $t70679, Herald$Platform$Browser$schedule$clo, $t70681);
                   }
                 }
               }
@@ -104783,19 +104828,19 @@ function $lam0_play$apply$0_play($clo, w2, ws) {
     {
       let $eff;
       {
-        let $t70671_i14180;
+        let $t70686_i14180;
         {
-          let $t70670_i14179;
+          let $t70685_i14179;
           {
             const w_i22746 = ws;
             {
               const $rc_3468_i22747 = ws.s;
-              $t70670_i14179 = $rc_3468_i22747;
+              $t70685_i14179 = $rc_3468_i22747;
             }
           }
-          $t70671_i14180 = Eclipse$Save$encode($t70670_i14179);
+          $t70686_i14180 = Eclipse$Save$encode($t70685_i14179);
         }
-        $eff = Herald$Platform$Browser$write_save("eclipse/save1", $t70671_i14180);
+        $eff = Herald$Platform$Browser$write_save("eclipse/save1", $t70686_i14180);
       }
     }
     $rc_4571 = Herald$Platform$Browser$show_status("Saved. Reload the page to play again.");
